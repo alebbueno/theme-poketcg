@@ -1,0 +1,33 @@
+// Bootstrap 4.5.2
+@import "~bootstrap/scss/bootstrap";
+
+// Slick 1.8.0
+@import "~slick-carousel/slick/slick";
+
+@import '~lightbox2/dist/css/lightbox.min.css';
+
+// Font Awesome Free 5.14.0
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/brands';
+// Plugins
+//@import "plugins";
+
+@import "style-geral";
+
+@import "home"; // página home
+
+@import "404"; //404
+
+@import "header";
+
+@import "footer";
+
+@import "blog";
+
+@import "single"; // single.php
+
+@import "category";

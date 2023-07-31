@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --azul-claro: #2196F3;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+button, input, select, textarea, a{
+    outline: transparent !important;
+    outline-color: transparent !important;
+}
+body {
+    background-color: #F6FBFE !important;
+    overflow-x: hidden !important;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+//fontes h1 blog
+.post-item h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}

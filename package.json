@@ -1,0 +1,47 @@
+{
+    "name": "theme_layerup",
+    "version": "1.0.0",
+    "scripts": {
+        "prod": "webpack --mode production",
+        "dev": "webpack --mode development --watch"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/eslint-parser": "^7.12.1",
+        "@babel/polyfill": "^7.11.5",
+        "@babel/preset-env": "^7.12.11",
+        "@fortawesome/fontawesome-free": "5.14.0",
+        "@fortawesome/free-brands-svg-icons": "5.14.0",
+        "aos": "2.3.4",
+        "autoprefixer": "^10.2.1",
+        "babel-loader": "^8.2.2",
+        "bootstrap": "^5.2.3",
+        "browser-sync": "^2.27.12",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "css-loader": "^6.3.0",
+        "eslint": "^8.22.0",
+        "fancybox": "3.0.1",
+        "file-loader": "^6.1.0",
+        "jquery": "^3.6.4",
+        "jquery-mask-plugin": "1.14.16",
+        "lightbox2": "2.11.4",
+        "malihu-custom-scrollbar-plugin": "^3.1.5",
+        "mini-css-extract-plugin": "^2.3.0",
+        "node-sass": "^8.0.0",
+        "popper.js": "1.16.1",
+        "postcss": "^8.4.16",
+        "prettier-eslint": "^15.0.1",
+        "sass-loader": "^13.0.2",
+        "slick-carousel": "1.8.0",
+        "source-map-loader": "^4.0.0",
+        "url-loader": "^4.1.0",
+        "webpack": "^5.12.3",
+        "webpack-cli": "^4.3.1",
+        "webpack-remove-empty-scripts": "1.0.1"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    }
+}
